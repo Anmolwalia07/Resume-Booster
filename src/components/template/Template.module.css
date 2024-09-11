@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 500;
+}
+.img{
+    display: flex;
+    gap: 80px;
+    padding: 40px;
+}
+.image{
+    width: 220px;
+    height: 250px;
+    box-shadow: 4px 4px 8px rgb(164, 160, 160)
+}
+
+.active{
+    border: 3px solid rgba(189, 178, 178, 0.968);
+}
+
