@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media print {
+  .container {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  .tools, .heading {
+      display: none; /* Hide tools and headings in print */
+  }
+  .image {
+      max-width: 100%; /* Ensure images fit on the page */
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Header.module.css'
-import ResumeSvg from '../public/resume.svg'
+import ResumeSvg from '../../public/resume.svg'
 function Header() {
     return (
         <div className={style.container}>

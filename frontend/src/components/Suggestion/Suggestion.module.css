@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 900px;
+    height: auto;
+    margin-top: 50px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.366);
+    border-radius: 10px;
+    margin-left:100px;
+    gap: 20px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding-left: 20px;
+}
+
+.suggestions{
+    width: auto;
+    height: auto;
+    color: azure;
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: #3E3D3D;
+    border-radius: 20px;
+}
+
+.project h1{
+    padding-left: 0;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.project h2{
+    font-size: 25px;
+}

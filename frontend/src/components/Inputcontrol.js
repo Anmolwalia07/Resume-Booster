@@ -7,6 +7,5 @@ function Inputcontrol({label,...props}) {
       <input type="text" {...props} />
     </div>
   );
-}
-
-export default Inputcontrol
+} 
+export default Inputcontrol;

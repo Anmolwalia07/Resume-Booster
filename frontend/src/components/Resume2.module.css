@@ -1,0 +1,293 @@
+.container {
+    width: 1000px;
+    height: 1610px;
+    display: flex;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    background-color: #D9D9D9;
+    flex-direction: column;
+}
+.upper{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.img{
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.profile{
+    width: 660px;
+    height: 200px;
+    background-color: #545454;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 340px;
+    text-wrap: wrap;
+    bottom: 30px;
+    padding: 20px 20px 0 50px;
+}
+
+.name{
+    width: 660px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    left: 340px;
+    bottom: 240px;
+    line-height: 60px;
+}
+
+.name h1{
+        font-size: 70px;
+        font-weight: 900;
+        text-transform: uppercase;
+}
+.name h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.profile h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#ffffffdf;
+}
+
+.profile p{
+    font-family: arial;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 22px;
+    color: #ffffffdf;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.button{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: rgb(248, 54, 54);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+ .button svg{
+    width: 30px;
+    height: 20px;
+}
+
+.down{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.leftSide{
+    width: 50%;
+    height: 100%;
+    color: #545454;
+    display: flex;
+    flex-direction: column;
+}
+.rightSide{
+    width: 50%;
+    height: 100%;
+    color: #000;
+    position: relative;
+}
+
+.contact{
+    height: auto;
+    width: 100%;
+    /* background-color: red; */
+    color: #000;
+    padding: 10px 0 5px 0px;
+}
+
+.skill{
+    height: auto;
+    color: #000;
+    width: 100%;
+    /* background-color: red; */
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.education ,.experience,.project{
+    height: auto;
+    width: 100%;
+    color: #000;
+}
+
+.experience{
+    padding: 10px 0 0 0;
+}
+
+.contact h1,.skill h1,.education h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skill h1{
+    letter-spacing: 6px;
+}
+
+.experience h1 ,.project h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.inner{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 13px;
+}
+.contain{
+    display: flex;
+}
+.inner p{
+    font-size: 20px;
+}
+
+.arr{
+    padding-left:90px ;
+    padding-top: 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.li{
+    margin-top: 5px;
+}
+
+.education1{
+    padding-left: 80px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.nameofschool{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.education1 h5{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.education h4{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #3e3d3d;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px 0 5px 0;
+}
+.project{
+    margin-top: 30px;
+}
+.workcontent,.projectcontent{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+
+}
+.work1,.project1{
+    padding: 10px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.work1 h3, .project1 h3{
+    font-size: 35px;
+    font-weight: 700;
+    width: 400px;
+    word-break: keep-all;
+}
+
+.work1 h4{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.project1 h4{
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.project1 p{
+    width: 300px;
+    height: auto;
+    margin-left: 5px;
+    white-space: normal;
+    word-break:break-all;
+}
+.work1 h4 span{
+    margin-right: 20px;
+}
+
+.divImg{
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.line{
+    width: 100%;
+    height: 6%;
+    background-color: #3e3d3d;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,339 @@
+
+.container {
+    width: 1000px;
+    height: 1500px;
+    display: flex;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-left: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+  }
+
+.left{
+    width: 30%;
+    height: 100%;
+    background-color: #444343;
+    color:#fff ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 40px;
+    object-fit: cover;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+}
+.contact h3{
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    gap: 10px;
+}
+
+.inner p{
+    font-size: 15px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    align-items: start;
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+    position: absolute;
+    left: 50px;
+    bottom: 80px;
+}
+
+.bottom h3{
+    font-size: 25px;
+}
+
+.skills{
+    color: #000;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px 0 5px 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 228px;
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    justify-content: center;
+    align-items: start;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.title{
+    margin-left: 50px;
+}
+
+.education ,.skills,.achievements{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 228px;
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px 0 0 0;
+
+}
+
+.education h3,.skills h3 ,.achievements h3 ,.project h3 ,.work h3{
+    font-size: 35px;
+    width: 100%;
+}
+
+.heading{
+    background-color: #4443439e;
+    width: 100%;
+    height: auto;
+    padding: 5px ;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.circle{
+    width: 70px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.college{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+.collegeName{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0 0 0;
+    align-items: center;
+
+}
+
+.college h4{
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+}
+.collegeName h5{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #444343;
+    text-align: center;
+}
+.collegeName h4{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.contain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px 0 0 0 ;
+}
+.arr li{
+    font-size: 30px;
+}
+
+
+.outer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 20px 0 0 20px ;
+}
+
+
+.data{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+
+}
+.project1{
+    padding: 30px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.project1 h3 {
+    font-size: 20px;
+}
+.project1 p{
+    font-size: 15px;
+    font-weight: 400;
+    width: 250px;
+    margin-left: 20px;
+}
+
+
+.link{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.github{
+    display: flex;
+    gap: 50px;
+}
+
+
+.work{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin-top: 5px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 5px 0 5px 0;
+}
+
+.workcontent{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+
+}
+.work1{
+    padding: 30px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.work1 h3{
+    font-size: 35px;
+}
+
+.work1 h4{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.work1 h4 span{
+    margin-right: 20px;
+}
+
+
+
+ .button{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: rgb(248, 54, 54);
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+ .button svg{
+    width: 30px;
+    height: 20px;
+}
